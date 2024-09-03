@@ -256,7 +256,7 @@ const Projects = () => {
                                             This is a counter where which is created using React and Framer Motion. When you click it blinks!
                                         </span>
                                     </div>
-                                    <Image src={"/auditAce.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
+                                    <Image src={"/counter.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
