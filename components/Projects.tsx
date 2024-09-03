@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { PinContainer } from './ui/3d-pin'
 import { FlipWords } from './ui/flip-words'
+import Image from 'next/image'
 
 const Projects = () => {
     const words = ["Creation", "Projects", "Websites", "Apps"];
@@ -37,7 +38,7 @@ const Projects = () => {
                                             This is my first Project, I have ever made. This is an infotainment website where you can watch and download anime for free.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br" style={{ backgroundImage: "url('/bakaaa.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/bakaaa.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -63,7 +64,7 @@ const Projects = () => {
                                             This is a Dictionary which will make your work easy. It will search any word for you and give you lots of definitions.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/dictionary.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/dictionary.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -89,7 +90,7 @@ const Projects = () => {
                                             This is a fun website which is made to know how much male/female are you. You can use it and enjoy it with your friends.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/checkyourGender.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/checkyourGender.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -125,7 +126,7 @@ const Projects = () => {
                                             This is a website that tells you real time weather in any country, region or state. It is using weather API for getting accurate information.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/weather.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/weather.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -151,7 +152,7 @@ const Projects = () => {
                                             This useful website generates QR code for the text as well as the URL that a user enters. It is practically very fast and user will get response immediately.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/QrCode.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/QrCode.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -177,7 +178,7 @@ const Projects = () => {
                                             This is a website where you can create your own blogs and reads others blogs. It is a fullstack website with OAuth implemented where you can sign in.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/myBlog.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/myBlog.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -203,7 +204,7 @@ const Projects = () => {
                                             This is a website where I have saved all my important links and bookmarks so that I can easily access and manage all your important links in one convenient place.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/bookmark.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/bookmark.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -229,7 +230,7 @@ const Projects = () => {
                                             This is a website which automates the job of a CA, basically it is used to automate the Audit process of a company.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/auditAce.png')", backgroundSize: "cover" }} />
+                                    <Image src={"/auditAce.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -255,7 +256,7 @@ const Projects = () => {
                                             This is a counter where which is created using React and Framer Motion. When you click it blinks!
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/Counter.png')", backgroundSize: "contain" }} />
+                                    <Image src={"/auditAce.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -281,7 +282,7 @@ const Projects = () => {
                                             This is an Ultimate Entertainment Hub where you can watch all the Movies and Websites for free.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/enthub.png')", backgroundSize: "contain" }} />
+                                    <Image src={"/enthub.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -307,7 +308,7 @@ const Projects = () => {
                                             This is a website where you can play quiz and test your knowledge. It is a fun website where you can play quiz and enjoy it with your friends.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/quiz.png')", backgroundSize: "contain" }} />
+                                    <Image src={"/quiz.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -333,7 +334,7 @@ const Projects = () => {
                                             This is a whiteboard where you can draw anything you want. It is a fun website where you can draw and enjoy it with your friends.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/whiteboard.png')", backgroundSize: "contain" }} />
+                                    <Image src={"/whiteboard.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
@@ -359,7 +360,7 @@ const Projects = () => {
                                             This is a startup website where you can book mechanics if your vehicle is broken down. It is a fullstack website with OAuth implemented where you can sign in.
                                         </span>
                                     </div>
-                                    <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br " style={{ backgroundImage: "url('/rrr.png')", backgroundSize: "contain" }} />
+                                    <Image src={"/rrr.png"} width={200} className='w-full object-cover rounded-lg mt-3 h-full' height={100} alt='bakaaa' />
                                 </div>
                             </PinContainer>
                         </motion.div>
